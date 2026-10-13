@@ -5,19 +5,19 @@ class Gitweave < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/rvielma/gitweave-releases/releases/download/v0.1.1/gitweave-v0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "760ff8068ce6a8fa93f578a1da4460b26d07faf8f056ff91f9b77c47bcada25c"
+      url "https://github.com/rvielma/gitweave-releases/releases/download/v0.1.2/gitweave-v0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "cd43664ef37db88bd02edc6deb7556d5ee112422b2065b066aecd740784924a5"
     end
     on_intel do
-      url "https://github.com/rvielma/gitweave-releases/releases/download/v0.1.1/gitweave-v0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "f1afc074f5b7fffa4ec1dcf00c2f5e7138230f4e99d08afadfc858c82e7d8675"
+      url "https://github.com/rvielma/gitweave-releases/releases/download/v0.1.2/gitweave-v0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "611acc5c76210092288c7ad74574ddafa800615b338c25b895ccb0d48a3988e3"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/rvielma/gitweave-releases/releases/download/v0.1.1/gitweave-v0.1.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "8180054afd6bb32636f657f0ffe36dd9ec5c5a13a6c851351f8883a0cb2ca55b"
+      url "https://github.com/rvielma/gitweave-releases/releases/download/v0.1.2/gitweave-v0.1.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "90dddd8bf4ebd7aec3b5d36c9a58022b1b1af5d95dad9fcb18be8fc0b04b5d7c"
     end
   end
 
